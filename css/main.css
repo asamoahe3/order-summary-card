@@ -21,6 +21,7 @@ body {
 }
 
 .order-card {
+    border-radius: 10px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -91,6 +92,7 @@ body {
     margin-left: -1em;
     margin-bottom: .5em;
 }
+
 .order-card .content .inner .card-plan .plan p {
     font-size: .8rem;
     margin-left: -1em;
