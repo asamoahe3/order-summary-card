@@ -1,0 +1,39 @@
+:root {
+    --pale-bule: rgb(224, 232, 255);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    background-color: var(--pale-bule);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.order-card {
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 25%;
+    margin-top: 5em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.order-card .card-header {
+    background-image: url(../images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 25%;
+}
